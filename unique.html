@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frameset Example</title>
+</head>
+
+<!-- Divide page into 2 rows -->
+<frameset rows="30%,70%">
+
+    <!-- Top Frame -->
+    <frame src="data:text/html,
+    <html>
+    <body bgcolor='orange'>
+        <h1 align='center'>Top Frame</h1>
+    </body>
+    </html>">
+
+    <!-- Bottom section divided into 2 columns -->
+    <frameset cols="50%,50%">
+
+        <!-- Left Frame -->
+        <frame src="data:text/html,
+        <html>
+        <body bgcolor='lightblue'>
+            <h2 align='center'>Left Frame</h2>
+        </body>
+        </html>">
+
+        <!-- Right Frame -->
+        <frame src="data:text/html,
+        <html>
+        <body bgcolor='lightgreen'>
+            <h2 align='center'>Right Frame</h2>
+        </body>
+        </html>">
+
+    </frameset>
+
+</frameset>
+
+</html>

@@ -1,101 +1,48 @@
-Research on Frameset and Frame Tag in HTML 
+<frameset> Tag
+🔹 What it does
 
-# Introduction 
+Divides the browser window into multiple sections (frames).
 
-The <frameset> and <frame> tags were involved in early HTML and were used to enable dividing a web browser window into several sections, each of which was capable of loading an HTML document at the same time. 
+Uses rows (horizontal split) and cols (vertical split).
 
-This technique was called framing. 
+Replaces the <body> tag in framed pages.
 
-This enabled developers to create layouts like: 
+🔹 Why it exists
 
-Navigation menu on left 
+To show multiple HTML pages in one browser window.
 
-Content on right 
+To create fixed navigation menus and content areas.
 
-Header on top 
+Used before CSS layout systems were developed.
 
-# Frameset Tag 
+🔹 Real-world use
 
-The <frameset> tag is responsible for defining the division of the browser window. 
+Left side → Navigation menu
 
-Instead of <body>, frameset pages have <frameset>. 
+Right side → Main content
 
-Syntax <frameset rows=”value”> <frameset cols="value"> 
+Top → Header section
 
-Example <frameset cols="50%,50%"> 
 
-This vertically divides the page into two equal parts. 
 
-# Frame Tag 
 
-The <frame> tag determines the content displayed in each frame. 
+<frame> Tag
+🔹 What it does
 
-Each frame uses the src attribute to load a different HTML file. 
+Displays an HTML document inside a frame.
 
-Syntax <frame src="page.html"> 
+Uses src attribute to load another page.
 
-# Frameset Attributes 
+🔹 Why it exists
 
-Attribute	Description rows	Horizontally divides pages Divides page vertically border	Sets border for the frame framespacing	Spacing between frames 
+To load different pages in different sections.
 
-# Attributes of Frame 
+To refresh only one part of the page instead of full reload.
 
-Attribute	Description; src	Display page Frame name scrolling yes / no /auto noresize	No resizing 
+🔹 Real-world use
 
-# Types of frame layouts 
+Online documentation (menu + content)
 
-Vertical Frames 
+Old news websites layout
 
-Page is divided into columns. 
-
-2. Horizontal Frames 
-
-Page is separated into rows; 
-
-3. Mixed Frames 
-
-Combination of rows + columns. 
-
-# Advantages 
-
-Several pages in one window 
-
-Navigation using simple layouts 
-
-Reusable menu blocks 
-
-Reduced page reloads 
-
-# Disadvantages 
-
-Inadequate SEO support 
-
-Bookmarking problems 
-
-Problems with printing 
-
-Not mobile friendly 
-
-Accessibility problems 
-
-# Obsolescence (Major) 
-
-Frames are now deprecated in HTML5. 
-
-Modern web designing uses: 
-
-CSS Flexbox 
-
-Css Grid 
-
-<iframe> 
-
-Responsive layouts 
-
-Browsers do not recommend framesets anymore. 
-
-# Conclusion 
-
-The <frameset> and <frame> tags were crucial in early web design since they enabled the display of multiple documents in a single browser window. 
-
-However, because of usability and compatibility issues, they have been phased out in favor of modern layout technologies in HTML5. 
+Early admin dashboards

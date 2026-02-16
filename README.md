@@ -1,108 +1,101 @@
-# UNIQUE-TAG
+Research on Frameset and Frame Tag in HTML 
 
-📘 Research on Frameset and Frame Tag in HTML
-1️⃣ Introduction
+# Introduction 
 
-The <frameset> and <frame> tags were used in early HTML to divide a web browser window into multiple sections, where each section could load a different HTML document simultaneously.
+The <frameset> and <frame> tags were involved in early HTML and were used to enable dividing a web browser window into several sections, each of which was capable of loading an HTML document at the same time. 
 
-This technique was called framing.
+This technique was called framing. 
 
-It allowed developers to create layouts such as:
+This enabled developers to create layouts like: 
 
-Navigation menu on left
+Navigation menu on left 
 
-Content on right
+Content on right 
 
-Header on top
+Header on top 
 
-2️⃣ Frameset Tag
+# Frameset Tag 
 
-The <frameset> tag defines how the browser window is divided.
+The <frameset> tag is responsible for defining the division of the browser window. 
 
-Instead of using <body>, frameset pages use <frameset>.
+Instead of <body>, frameset pages have <frameset>. 
 
-Syntax
-<frameset rows="value">
-<frameset cols="value">
+Syntax <frameset rows=”value”> <frameset cols="value"> 
 
-Example
-<frameset cols="50%,50%">
+Example <frameset cols="50%,50%"> 
 
+This vertically divides the page into two equal parts. 
 
-This divides the page vertically into two equal parts.
+# Frame Tag 
 
-3️⃣ Frame Tag
+The <frame> tag determines the content displayed in each frame. 
 
-The <frame> tag defines the content displayed in each frame.
+Each frame uses the src attribute to load a different HTML file. 
 
-Each frame loads a separate HTML file using the src attribute.
+Syntax <frame src="page.html"> 
 
-Syntax
-<frame src="page.html">
+# Frameset Attributes 
 
-4️⃣ Attributes of Frameset
-Attribute	Description
-rows	Divides page horizontally
-cols	Divides page vertically
-border	Sets frame border
-framespacing	Space between frames
-5️⃣ Attributes of Frame
-Attribute	Description
-src	Page to display
-name	Frame name
-scrolling	yes / no / auto
-noresize	Prevent resizing
-6️⃣ Types of Frame Layouts
-1. Vertical Frames
+Attribute	Description rows	Horizontally divides pages Divides page vertically border	Sets border for the frame framespacing	Spacing between frames 
 
-Page divided into columns.
+# Attributes of Frame 
 
-2. Horizontal Frames
+Attribute	Description; src	Display page Frame name scrolling yes / no /auto noresize	No resizing 
 
-Page divided into rows.
+# Types of frame layouts 
 
-3. Mixed Frames
+Vertical Frames 
 
-Combination of rows + columns.
+Page is divided into columns. 
 
-7️⃣ Advantages
+2. Horizontal Frames 
 
-Multiple pages in one window
+Page is separated into rows; 
 
-Easy navigation layouts
+3. Mixed Frames 
 
-Reusable menu sections
+Combination of rows + columns. 
 
-Reduced page reload
+# Advantages 
 
-8️⃣ Disadvantages
+Several pages in one window 
 
-Poor SEO support
+Navigation using simple layouts 
 
-Bookmarking issues
+Reusable menu blocks 
 
-Printing problems
+Reduced page reloads 
 
-Not mobile friendly
+# Disadvantages 
 
-Accessibility issues
+Inadequate SEO support 
 
-9️⃣ Obsolescence (Important)
+Bookmarking problems 
 
-Frames are now deprecated in HTML5.
+Problems with printing 
 
-Modern web design uses:
+Not mobile friendly 
 
-CSS Flexbox
+Accessibility problems 
 
-CSS Grid
+# Obsolescence (Major) 
 
-<iframe>
+Frames are now deprecated in HTML5. 
 
-Responsive layouts
+Modern web designing uses: 
 
-Browsers no longer recommend framesets.
+CSS Flexbox 
 
-🔟 Conclusion
+Css Grid 
 
-The <frameset> and <frame> tags played an important role in early web design by allowing multiple documents in a single browser window. However, due to usability and compatibility issues, they have been replaced by modern layout technologies in HTML5.
+<iframe> 
+
+Responsive layouts 
+
+Browsers do not recommend framesets anymore. 
+
+# Conclusion 
+
+The <frameset> and <frame> tags were crucial in early web design since they enabled the display of multiple documents in a single browser window. 
+
+However, because of usability and compatibility issues, they have been phased out in favor of modern layout technologies in HTML5. 

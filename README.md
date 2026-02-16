@@ -1,4 +1,4 @@
-# <frameset> Tag
+# frameset Tag
 # 🔹 What it does
 
 Divides the browser window into multiple sections (frames).
@@ -26,7 +26,7 @@ Top → Header section
 
 
 
-# <frame> Tag
+# frame Tag
 # 🔹 What it does
 
 Displays an HTML document inside a frame.
